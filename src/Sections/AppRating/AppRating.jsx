@@ -20,12 +20,12 @@ const AppRating = () => {
                         <p className='md:text-[10px]'>New Apps We Love</p>
                     </div>
                     <div className='md:my-3 '>
-                        <h1 className='md:text-sm'>APPLE</h1>
-                        <p className='md:text-[10px]'>New Apps We Love</p>
+                        <h1 className='md:text-sm'>TIME</h1>
+                        <p className='md:text-[10px]'>Best Apps of the Year</p>
                     </div>
                     <div className='md:my-3 '>
-                        <h1 className='md:text-sm'>APPLE</h1>
-                        <p className='md:text-[10px]'>New Apps We Love</p>
+                        <h1 className='md:text-sm'>REAL SIMPLE</h1>
+                        <p className='md:text-[10px]'>Smart Money Award</p>
                     </div>
                     
 
