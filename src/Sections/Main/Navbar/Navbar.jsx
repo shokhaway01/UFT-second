@@ -7,7 +7,7 @@ const Navbar = () => {
             <p>Hear first hand how our product is</p>
             <p>helping those who need it the most</p>
         </div>
-        <ul className='flex justify-around py-4 uppercase font-["Roboto",sans-serif] font-medium text-sm md:justify-center md:gap-10'>
+        <ul className='flex justify-around py-5 uppercase font-["Roboto",sans-serif] font-medium text-[12px] md:justify-center md:gap-10'>
             <li>About US</li>
             <li>Customer Stories</li>
             <li>Quiz</li>
