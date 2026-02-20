@@ -1,0 +1,12 @@
+.slider{
+    height: 30vh;
+    background-color: aqua;
+}
+
+.slider-container{
+    width: 80%;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    padding: 15px;
+}

@@ -3,6 +3,8 @@ import Main from "./Sections/Main/Main"
 import HelpingPeople from "./Sections/HelpingPeople/HelpingPeople"
 import AppRating from "./Sections/AppRating/AppRating"
 import Credit from "./Sections/Credit/Credit"
+import CreditCarousel from "./Sections/CreditCarousel/CreditCarousel"
+
 
 function App() {
 
@@ -10,8 +12,9 @@ function App() {
     <div>
       <Main />
       <HelpingPeople />
-      <Credit />
       <AppRating />
+      <CreditCarousel />
+      <Credit />
     </div>
   )
 }
