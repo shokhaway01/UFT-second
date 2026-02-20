@@ -5,6 +5,8 @@ import AppRating from "./Sections/AppRating/AppRating"
 import Credit from "./Sections/Credit/Credit"
 import CreditCarousel from "./Sections/CreditCarousel/CreditCarousel"
 import Footer from "./Sections/Footer/Footer"
+import Steps from "./Sections/Steps/Steps-1"
+import StepsSecond from "./Sections/StepsSecond/Steps-1"
 
 
 function App() {
@@ -13,6 +15,8 @@ function App() {
     <div>
       <Main />
       <HelpingPeople />
+      <Steps />
+      <StepsSecond />
       <AppRating />
       <CreditCarousel />
       <Credit />

@@ -88,7 +88,7 @@ const CreditCarousel = () => {
             <h1>Giving credit where credit's due</h1>
         </div>
 
-        <div className="slider-container w-full  p-10" align='center'>
+        <div className="slider-container overflow-x-auto w-full  p-10" align='center'>
       <Slider key={refresh ? "loaded" : "loading"} {...settings} className='slider'>
         {
             data.map( (item, index) => (
