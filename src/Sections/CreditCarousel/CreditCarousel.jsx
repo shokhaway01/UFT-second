@@ -12,8 +12,6 @@ const CreditCarousel = () => {
     speed: 800,
     slidesToShow: 3,
     slidesToScroll: 3,
-    nextArrow: <FaArrowAltCircleLeft className='text-black'/>,
-    prevArrow: <FaArrowAltCircleRight />,
     responsive: [
       {
         breakpoint: 1024,
@@ -21,7 +19,7 @@ const CreditCarousel = () => {
           slidesToShow: 3,
           slidesToScroll: 3,
           infinite: true,
-          dots: true
+          dots: false
         }
       },
       {
@@ -29,7 +27,10 @@ const CreditCarousel = () => {
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
-          initialSlide: 2
+          initialSlide: 2,
+          dots: false,
+          autoplay: true,
+          autoplaySpeed: 200
         }
       },
       {
