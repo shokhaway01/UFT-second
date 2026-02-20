@@ -6,47 +6,105 @@ import { FaArrowAltCircleRight } from "react-icons/fa";
 
 const CreditCarousel = () => {
 
+    // const settings = {
+    // dots: true,
+    // infinite: true,
+    // speed: 800,
+    // slidesToShow: 1,
+    // slidesToScroll: 1,
+    // autoplay: true,
+    // autoplaySpeed: 2000,
+    // responsive: [
+    //   {
+    //     breakpoint: 1024,
+    //     settings: {
+    //       slidesToShow: 1,
+    //       slidesToScroll: 1,
+    //       infinite: true,
+    //       dots: false
+    //     }
+    //   },
+    //   {
+    //     breakpoint: 1920,
+    //     settings: {
+    //       slidesToShow: 3,
+    //       slidesToScroll: 3,
+    //     },
+    //   },
+    //   {
+    //     breakpoint: 1280,
+    //     settings: {
+    //       slidesToShow: 3,
+    //       slidesToScroll: 3,
+    //     },
+    //   },
+    //   {
+    //     breakpoint: 600,
+    //     settings: {
+    //       slidesToShow: 1,
+    //       slidesToScroll: 1,
+    //       initialSlide: 1,
+    //       dots: false,
+    //       autoplay: true,
+    //       autoplaySpeed: 200
+    //     }
+    //   },
+    //   {
+    //     breakpoint: 400,
+    //     settings: {
+    //       slidesToShow: 1,
+    //       slidesToScroll: 1,
+    //       dots: false,
+    //       autoplay: true,
+    //       autoplaySpeed: 200
+    //     }
+    //   }
+    // ]
+
     const settings = {
-    dots: true,
-    infinite: true,
-    speed: 800,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 2000,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          infinite: true,
-          dots: false
-        }
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          initialSlide: 1,
-          dots: false,
-          autoplay: true,
-          autoplaySpeed: 200
-        }
-      },
-      {
-        breakpoint: 400,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          dots: false,
-          autoplay: true,
-          autoplaySpeed: 200
-        }
+  dots: true,
+  infinite: true,
+  speed: 800,
+  slidesToShow: 3,
+  slidesToScroll: 3,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  responsive: [
+    {
+      breakpoint: 1280,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
       }
-    ]
-  };
+    },
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        dots: false
+      }
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: false
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: false,
+        autoplaySpeed: 300
+      }
+    }
+  ]
+}
+//   };
 
     const data = [
         {
